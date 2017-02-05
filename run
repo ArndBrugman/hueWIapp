@@ -1,0 +1,5 @@
+cd ~/OneDrive/Developer/hueWIapp/
+
+cd ~/OneDrive/Developer/huewi/;gulp;cd ../hueWIapp/
+rm -r www/*; cp -r ../huewi/dist/* www/
+cordova clean; cordova run android
