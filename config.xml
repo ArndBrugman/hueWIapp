@@ -4,8 +4,11 @@
     <description>
         hueWI is the quick way to directly set the mood for yout Philips hue Connected Lighting 
     </description>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="KeepRunning" value="false"/>
     <preference name="android-manifest/application/activity/@android:theme" value="@android:style/Theme.Black.NoTitleBar"/>
     <preference name="BackgroundColor" value="0x00000000" />
+    <icon src="./www/assets/img/huewi_logo.png" />
     <author email="arndbrugman@gmail.com" href="https://github.com/ArndBrugman/huewi">
         Arnd Brugman
     </author>
